@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import NavBar from './NavBar';
 
 const Logo = styled.h2`
   font-family: 'Fraunces', serif;
@@ -11,6 +12,7 @@ export default function Header() {
   return (
     <div>
       <Logo>Sephine</Logo>
+      <NavBar />
     </div>
   );
 }
